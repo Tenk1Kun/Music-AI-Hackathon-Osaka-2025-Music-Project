@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.file-selector {
+  color: white;
+}
+
+.file-selector::file-selector-button {
+  background-color: #27272a;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 1rem;
+}
